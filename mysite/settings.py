@@ -26,7 +26,7 @@ SECRET_KEY = '-8p9^m3_@w1(ys$9dw1%^+@)zd&am^+x_6!7z#q*3zjysc(906'
 DEBUG = False
 
 ALLOWED_HOSTS = [
-    'django-cas-ng-demo.herokuapp.com',
+    'example-cas.herokuapp.com',
     'localhost',
     '127.0.0.1',
 ]
@@ -110,7 +110,7 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-CAS_SERVER_URL = 'https://django-cas-ng-demo-server.herokuapp.com/cas/'
+CAS_SERVER_URL = 'https://example-cas.herokuapp.com/cas/'
 CAS_VERSION = '3'
 
 
